@@ -264,19 +264,20 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
-.text{
-  font-size: 16px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-}
-.real{
 
-      min-height: 100vh;
+.real{
       margin: 0;
       padding: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
 }
+.fake{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
 .slider-container {
   width: min(90vw, 1000px);
   aspect-ratio: 16/9;
